@@ -22,7 +22,7 @@ const App = () => {
             <Contact />
         </main>
         </>
-    )
-}
+    );
+};
 
 export default App
