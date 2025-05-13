@@ -2,7 +2,7 @@ import React from 'react'
 import "./about.css"
 import Info from "./Info"
 import AboutImg from "../../assets/about.jpeg"
-import CV from "../../assets/John-Cv.pdf"
+import CV from "../../assets/CV.pdf"
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
 
                 <p className="about__description">I am a passionate web developer with a strong foundation in front-end technologies. I enjoy creating user-friendly and visually appealing websites that provide a seamless experience for users. I am always eager to learn new skills and stay updated with the latest trends in web development.</p>
 
-                <a href="" className="button button--flex">Download CV
+                <a href={CV} className="button button--flex">Download CV
                 <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
