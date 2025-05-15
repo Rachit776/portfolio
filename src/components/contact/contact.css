@@ -6,6 +6,37 @@
 
 }
 
+.button__icon.spinner {
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button__icon.spinner .path {
+  stroke-dasharray: 90;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+}
+
+.error-message {
+  color: #e74c3c; /* red color */
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  display: block;
+  position: absolute;
+  bottom: -1.25rem;
+  left: 0.5rem;
+}
+
+/* Red border on invalid inputs */
+.input-error {
+  border-color: #e74c3c !important;
+}
+
 .contact__title{
     text-align: center;
     font-size: var(--h3-font-size);
@@ -82,12 +113,12 @@
 
 .contact__form{
     width: 360px;
-}
+}   
 
 .contact__form-div{
     position: relative;
     margin-bottom: var(--mb-2);
-    height: 4rem;
+    height: 4.8rem;
 }
 
 .contact__form-input{
