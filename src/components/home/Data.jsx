@@ -55,9 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Visual Designer</h3>
+      <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        sdadiidahidaid hagds djsahdadhsa jdhaidhsidh  audahdushdua  hduashuhdua hd  ushdu ahdujds jadj asjdhai dha usdhsud h suhdudhushdus hdsuahdu hshad udhausd  haud ha udhsaud hauduhsu  
+        Hello, I'm Rachit Kumar Choudhary, A passionate web development enthusiast with strong problem-solving skills. I enjoy building dynamic web applications and continuously expanding my knowledge in modern web technologies.  
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

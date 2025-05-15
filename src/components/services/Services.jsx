@@ -26,31 +26,31 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
                         <h3 className="services__modal-title">Web Development</h3>
-                        <p className="services__modal-description">I create responsive and user-friendly websites using the latest technologies.</p>
+                        <p className="services__modal-description">A passionate web developer dedicated to building responsive, efficient, and user-friendly web applications using modern technologies.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
+                                <p className="services__modal-info">Built and deployed complete web applications using frontend and backend technologies.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web Page development</p>
+                                <p className="services__modal-info">Ensured seamless user experiences across devices and browsers using HTML5, CSS3, and responsive frameworks.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 3 to be moted</p>
+                                <p className="services__modal-info">Proficient in JavaScript and familiar with frameworks like React.js or Node.js to build interactive and scalable solutions.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 4 to be moted</p>
+                                <p className="services__modal-info">Experienced in fetching and handling data from RESTful APIs to create dynamic web content.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 5 to be moted</p>
+                                <p className="services__modal-info">Skilled in using Git/GitHub for version control and deploying web applications on platforms like Netlify, Vercel, or Heroku.</p>
                             </li>
                             
                         </ul>
@@ -70,32 +70,32 @@ const Services = () => {
                 <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">a Development</h3>
-                        <p className="services__modal-description">I create responsive and user-friendly websites using the latest technologies.</p>
+                        <h3 className="services__modal-title">Frontend Development</h3>
+                        <p className="services__modal-description">A passionate frontend developer focused on crafting responsive, user-friendly web interfaces using modern technologies.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
+                                <p className="services__modal-info">Skilled in creating mobile-first, responsive layouts using HTML, CSS, and frameworks like Bootstrap or Tailwind CSS.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">a Page development</p>
+                                <p className="services__modal-info">Proficient in using JavaScript for dynamic functionality, including DOM manipulation, API integration, and event handling.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 3 to be moted</p>
+                                <p className="services__modal-info">Proficient in using JavaScript for dynamic functionality, including DOM manipulation, API integration, and event handling.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 4 to be moted</p>
+                                <p className="services__modal-info">Focused on delivering clean, user-friendly interfaces with attention to accessibility, consistency, and usability.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 5 to be moted</p>
+                                <p className="services__modal-info">Comfortable using Git and GitHub for version control, code collaboration, and project management in team environments.</p>
                             </li>
 
                         </ul>
@@ -115,32 +115,32 @@ const Services = () => {
                 <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                        <h3 className="services__modal-title">a Development</h3>
-                        <p className="services__modal-description">I create responsive and user-friendly websites using the latest technologies.</p>
+                        <h3 className="services__modal-title">Software Development</h3>
+                        <p className="services__modal-description">A passionate software developer focused on building efficient, scalable, and reliable software solutions using modern tools and technologies.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
+                                <p className="services__modal-info">Strong foundation in data structures and algorithms to develop optimized and effective software solutions.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web Page development</p>
+                                <p className="services__modal-info">Proficient in OOP principles and applying them in C++ for modular and maintainable code.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 3 to be moted</p>
+                                <p className="services__modal-info">Familiar with agile methodologies, version control, testing, and deployment practices across the full software lifecycle.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 4 to be moted</p>
+                                <p className="services__modal-info">Experience in backend development and working with databases like MySQL or MongoDB for robust data handling.</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Point Number 5 to be moted</p>
+                                <p className="services__modal-info">Exposure to building applications that run across different platforms and environments, including desktop, web, and mobile.</p>
                             </li>
 
                         </ul>

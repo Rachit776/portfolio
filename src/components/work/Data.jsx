@@ -1,18 +1,20 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
+import Work1 from "../../assets/work1.png";
+import Work2 from "../../assets/work2.png";
 
 export const projectsData = [
     {
         id:1,
         image: Work1,
-        title:'Web Design',
-        category:'Web',
+        title:'Stimulus',
+        category:'App',
+        link: `https://github.com/Rachit776/Stimulus`,
     },
     {
         id:2,
         image: Work2,
-        title:'software Design',
-        category:'Design',
+        title:'Portfolio',
+        category:'Web',
+        link: `https://github.com/Rachit776/portfolio`,
     },
 ];
 
