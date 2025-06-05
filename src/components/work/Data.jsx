@@ -8,7 +8,7 @@ export const projectsData = [
     {
         id:4,
         image: Work4,
-        title:'AI-Interview-Simulator',
+        title:'AI Interview Simulator',
         category:'Web',
         link: `https://github.com/Rachit776/AI-Interview-Simulator`,
     },
